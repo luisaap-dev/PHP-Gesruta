@@ -1,0 +1,325 @@
+/* Estilos personalizados */
+@font-face {
+    font-family: 'DAGGERSQUARE';
+    src: url('/static/fonts/DAGGERSQUARE.otf')format('truetype');
+}
+
+/* Resetear márgenes, rellenos y modelo de caja */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 12px;
+    text-shadow: #c00000;
+    color: #000;
+}
+/* Estilos generales para el cuerpo de la página y encabezado */
+html, body, header {
+    background-color: #f8f9fa;
+    font-family: 'DAGGERSQUARE',sans-serif;
+     overflow-x: hidden !important; /* Bloquear el desplazamiento horizontal */
+
+
+}
+
+.card-title{
+    text-shadow: #c00000;
+    color: #000;
+
+}
+
+
+.btn-modal{
+    background-color: #c00000;
+    border-color: #c00000;
+    color: #f8f9fa;
+}
+
+.btn-modal:hover{
+    background-color: #f8f9fa !important;
+    color: #c00000 !important;
+    border-color: #c00000 !important;
+}
+
+
+.modal-open{
+    margin: 0 auto;
+
+    padding: 0 !important;
+}
+
+.btn-asistencia{
+    width: 100%;
+    background-color: #f8f9fa;
+    border: none;
+}
+
+.btn-asistencia:hover{
+    background-color: #f8f9fa;
+    border: none;
+    transform: scale(1.05);
+}
+/* Estilos del botón de navegación */
+.navbar-toggler {
+    border: none;
+    color: #c00000;
+}
+
+/* Estilos de los enlaces de navegación */
+.nav-link {
+    color: #c00000;
+    transition: color 0.2s; /* Transición de color al pasar el mouse */
+}
+
+/* Cambio de color al pasar el mouse sobre los enlaces de navegación */
+.nav-link:hover {
+    color: black;
+}
+
+/* Estilos generales para las tarjetas */
+.card {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    background-color: #f8f9fa;
+    color: #c00000;
+    border: none;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto; /* Centrar el contenido en pantallas más grandes */
+}
+
+/* Estilos de la imagen superior de la tarjeta */
+.card-img-top {
+    width: 200px;
+    height: auto;
+    text-align: center;
+    padding: 8px;
+    display: flex;
+}
+
+.modal-title{
+    color: #c00000;
+    text-align: center; margin: 0 auto;
+}
+
+main{
+    text-shadow: #c00000;
+    color: #000;
+}
+
+
+
+/* Cambio de escala al pasar el mouse sobre la tarjeta */
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #c00000;
+    color: #f8f9fa !important;
+    padding: 20px 0; /* Agregado de espaciado vertical */
+}
+
+/* Estilo para hacer que las imágenes sean responsive */
+.responsive-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Estilo para el contenedor de texto */
+.text-container {
+    position: absolute;
+    color: #c00000;
+    top: 40%;
+    left: 20%;
+    transform: translate(-40%, -20%);
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 10px;
+}
+
+section {
+    background-color: #f8f9fa;
+    color: #c00000;
+}
+
+hr {
+    background-color: #f8f9fa;
+    color: #f8f9fa;
+}
+
+/* Estilo para la barra inferior de separación */
+#gesruta {
+    border-bottom: #c00000 solid 1px;
+}
+
+/* Estilos para el botón de contacto */
+#submit-contacto {
+    background-color: #c00000;
+    border-color: #c00000;
+}
+
+/* Cambio de color al pasar el mouse sobre el botón de contacto */
+#submit-contacto:hover {
+    background-color: #f8f9fa;
+    color: #c00000;
+    border-color: #c00000;
+}
+
+/* Estilos para la lista de navegación desordenada (.navbar-nav) */
+.navbar-nav {
+    list-style: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina el espacio interno predeterminado */
+}
+
+/* Estilos para los elementos de la lista de navegación (.nav-item) */
+.nav-item {
+    margin: 10px 0; /* Espacio entre elementos de la lista */
+}
+
+/* Estilos para los iconos (clase .fa) dentro de los enlaces de navegación (.nav-link) */
+.nav-link i {
+    margin-right: 10px; /* Espacio entre el icono y el texto del enlace */
+    font-size: 18px; /* Tamaño del icono */
+}
+
+/* Estilos para los enlaces de navegación (.nav-link) */
+.nav-link {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: #c00000; /* Color del texto del enlace */
+}
+
+/* Estilo para el enlace activo (.nav-item.active) */
+.nav-item.active {
+    font-weight: normal; /* Cambia el peso de la fuente para indicar el enlace activo */
+}
+
+/* Estilos para la lista de navegación desordenada */
+#my-list {
+    list-style: none; /* Elimina los puntos de la lista */
+    padding: 20px; /* Elimina el espacio interno predeterminado */
+}
+
+/* Estilos para los elementos de la lista de navegación */
+#my-list li {
+    margin: 2px 0; /* Espacio entre elementos de la lista */
+}
+
+/* Estilos para los iconos dentro de los enlaces de navegación */
+#my-list li a i {
+    text-align: center;
+    margin-right: 10px; /* Espacio entre el icono y el texto del enlace */
+    font-size: 18px; /* Tamaño del icono */
+}
+
+/* Estilos para los enlaces de navegación */
+#my-list li a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: #f8f9fa; /* Color del texto del enlace */
+}
+
+/* Estilo para el contenedor de cookies */
+.cookie-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #f8f9fa;
+    text-align: center;
+    padding: 10px;
+    display: none;
+}
+
+/* Estilo para el botón de aceptar cookies */
+.cookie-btn {
+    background-color: #c00000;
+    color: #f8f9fa;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.cookie-link {
+    background-color: #c00000;
+    color: #f8f9fa;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.cookie-btn:hover, .cookie-link:hover{
+    background-color: #f8f9fa;
+    color: #c00000;
+    border-color: #c00000;
+}
+
+#scrollTop{
+    background-color: #f8f9fa;
+    margin-top: 10px;
+    color:#c00000;
+    border: none;
+    cursor: pointer;
+}
+
+.btn i.fas.fa-arrow-alt-circle-up {
+    font-size: 16px;
+}
+
+#scrollTop:hover , .btn i.fas.fa-arrow-alt-circle-up:hover{
+    background-color: #c00000;
+    color: #f8f9fa;
+}
+
+.first-footer{
+    border-bottom: 2px solid #f8f9fa;
+    margin-bottom: 1px;
+}
+
+h2{
+    border: 2px solid #c00000 !important;
+    color: #c00000;
+    padding: 2px;
+    text-shadow: #c00000;
+
+}
+
+#luisaap{
+    text-decoration: none;
+    color: #f8f9fa;
+}
+/* Media query para dispositivos más pequeños */
+@media (max-width: 768px) {
+    .text-container {
+        top: 30%;
+        width: 100%;
+        text-align: center;
+        left: 10%;
+        transform: translate(-10%, -10%);
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+
+    .responsive-img {
+        display: block;
+        background-image: url("/static/img/gesruta.png");
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .navbar-nav {
+        display: block;
+        padding: 10px;
+    }
+
+    .container{
+        width: 100%;
+    }
+}
